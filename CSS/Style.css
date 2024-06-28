@@ -1,0 +1,328 @@
+*{
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+body{
+    background-color: rgba(238, 191, 133, 0.51);
+}
+
+main{
+    margin: 0 auto;
+}
+/* inicio cabeçalho */
+
+header{
+    display: flex;
+    color: rgb(164, 29, 101);
+    background-color: rgba(244, 110, 213, 0.297)    ;
+    width: 100%;
+    height: 100px;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+header img{
+    width: auto;
+    height: 150px;
+    margin-top: 30px;
+}
+
+nav > a{
+
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+nav > a:hover{
+
+    color: white;
+    transition: 0.4s;
+}
+
+/* Fim cabeçalho */
+
+h1{
+    text-align: center;
+}
+
+img{
+
+    width: 95%;
+    height: 250px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.inicio{
+
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    background-image: url(../Imagens/neve.gif);
+    background-size: 100px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.inicio img{
+
+    width: 100px;
+    height: auto;
+}
+
+.inicio a{
+
+    text-decoration: none;
+    color: black;
+    background-color: rgba(50, 211, 184, 0.659);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.inicio a:hover{
+
+    color: white;
+    transition: 0.4s;
+    padding: 12px;
+}
+.menu{
+
+    margin: 20px;
+    height: 200vw;
+    float: left;
+}
+
+/* Conteudo em destaque  */
+
+
+.dysplay{
+
+    background: radial-gradient(rgb(82, 82, 186), pink);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 50px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+
+.dysplay h1{
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 30px;
+
+      
+}
+
+.gallery{
+    
+    width: 300px;
+    height: 350px;
+    background-color: rgba(231, 150, 27, 0.362);
+    border-radius: 15px;
+}
+
+.gallery > a{
+    
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    color: black;
+}
+
+.gallery:hover{
+
+    scale: 1.05;
+    transition: 0.5s;
+}   
+
+.desc > p{
+
+    width: 100%;
+}
+
+
+/* Fim dos destaques */
+
+/* Filtro masc-fem */
+
+.texto{
+    display: flex;
+    background: linear-gradient(to right, rgba(15, 15, 220, 0.738), rgba(192, 15, 159, 0.59));
+    justify-content: space-evenly;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.meninos-meninas{
+
+    background: linear-gradient(to right, rgba(15, 15, 220, 0.738), rgba(192, 15, 159, 0.59));
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1240px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.meninos1:hover{
+    scale: 1.05;
+    transition: 0.5s;
+}
+
+.meninas1:hover{
+    scale: 1.05;
+    transition: 0.5s;
+}
+
+.meninos1{
+
+    background-image: url(../Imagens/bebemenino.jpg);
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.meninas1{
+
+    background-image: url(../Imagens/bebemenina.jpg);
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 20px;
+}
+
+button img{
+    width: 60px;
+    height: 60px;
+    rotate: 270deg;
+    position: absolute;
+    right: 1%;
+    top: 2550px;
+    background-color: rgba(0, 0, 0, 0.266);
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Fim do filtro masc-fem */
+
+@media(max-width:600px) {
+
+    /* inicio cabeçalho */
+
+    header{
+
+        display: flex;
+        color: rgb(164, 29, 101);
+        background-color: rgba(244, 110, 213, 0.297)    ;
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header img{
+
+        width: auto;
+        height: 150px;
+        margin-top: 30px;
+    }
+
+    nav > a{
+
+        padding: 15px 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+
+    nav > a:hover{
+
+        color: white;
+        
+    }
+
+    /* Fim cabeçalho */
+
+    /* inicio meninas-meninos */
+
+    .texto{
+
+        display: flex;
+        background: linear-gradient(to right, rgba(15, 15, 220, 0.738), rgba(192, 15, 159, 0.59));
+        justify-content: space-evenly;
+        font-size: 15px;
+    }
+
+    .meninos-meninas{
+        background: linear-gradient(to right, rgba(15, 15, 220, 0.738), rgba(192, 15, 159, 0.59));
+        display: flex;
+        justify-content: space-evenly;
+        height: 350px
+    }
+    
+    .meninos1:hover{
+        scale: 1.05;
+        transition: 0.5s;
+    }
+    
+    .meninas1:hover{
+        scale: 1.05;
+        transition: 0.5s;
+    }
+    
+    .meninos1{
+    
+        background-image: url(../Imagens/bebemenino.jpg);
+        width: 100px;
+        height: 150px;
+        padding: 50px;
+        background-size: 100%;
+        background-position: center;
+        border-radius: 20px;
+    }
+    
+    .meninas1{
+    
+        background-image: url(../Imagens/bebemenina.jpg);
+        width: 100px;
+        height: 150px;
+        padding: 50px;
+        background-size: 100%;
+        background-position: center;
+        border-radius: 20px;
+    }
+
+    /* fim  meninas-meninos */
+
+    button img{
+        width: 60px;
+        height: 60px;
+        rotate: 270deg;
+        position: absolute;
+        right: 5%;
+        top: 4050px;
+        background-color: rgba(0, 0, 0, 0.266);
+    }
+    
+}

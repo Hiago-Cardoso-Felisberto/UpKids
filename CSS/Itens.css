@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(rgb(82, 82, 186), pink);
+}
+
+.container {
+    display: flex;
+    width: 60%; 
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* inicio cabeçalho */
+
+header{
+    display: flex;
+    color: rgb(164, 29, 101);
+    background-color: rgba(244, 110, 213, 0.297)    ;
+    width: 100%;
+    height: 100px;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+header img{
+    width: auto;
+    height: 150px;
+    margin-top: 30px;
+}
+
+nav > a{
+
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav > a:hover{
+
+    color: white;
+    transition: 0.4s;
+}
+
+/* Fim cabeçalho */
+
+.left-side {
+    display: flex;
+    max-width: 350px;
+    margin: 20px;
+    width: 100%;
+}
+
+
+.select-image {
+    max-width: 100%;
+    min-width: 200px;
+}
+
+.select-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 500px;
+    gap: 10px;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 125px;
+    border-radius: 10px;
+}
+
+.content {
+    max-width:fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(108, 99, 99, 0.593);
+    min-height: 350px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.textoimagem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.textoimagem h6 {
+    font-size: 20px;
+    color: #000;
+    margin: 20px 20px 0 20px;
+}
+
+.textoimagem p {
+    color: #2bbde2;
+    font-size: 14px;
+    margin: 0 20px;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.off {
+    font-size: 12px;
+    color: #8d8787;
+    text-decoration: line-through;
+}
+
+.amount {
+    display: flex;
+    margin: 0 20px;
+}
+
+.amount span {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.tam10, .tam11, .tam12 {
+    cursor: pointer;
+    background-color: #929292;
+    border-radius: 30px;
+    padding: 10px 20px;
+    gap: 30px;
+    width: fit-content;
+    align-items: center;
+    margin: 5px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    background-color: #6af011;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 10px;
+    margin: 20px;
+}
+
+.button img{
+    width: 30px;
+}
